@@ -22,14 +22,6 @@ body {
 background-color: #0d325a;
 }
 
-.container-fullwidth.middle {
-background-color: #f9f9f9;
-}
-
-.container-fullwidth.bottom {
-background-color: #fff;
-}
-
 .container {
     width: 90%;
     max-width: 1200px;
@@ -107,9 +99,77 @@ nav {
     color: #fff;
 }
 
+.slogan-container h1 {
+    font-size: 40px;
+}
+
 .struttura-un-piano.big {
     text-decoration: none;
     font-size: 13px;
     font-weight: 800;
     padding: 8px 25px;
+}
+/* Fine Jambotron */
+
+
+/* GreyRow */
+.container-fullwidth.middle {
+background-color: #f9f9f9;
+}
+
+.grey-row {
+    font-size: 20px;
+    text-align: center;
+    padding: 45px 0;
+}
+
+.grey-row h3{
+    font-weight: 400;
+}
+
+.grey-row p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #999;
+}
+/* Fine GreyRow*/
+
+
+/* Cards */
+.container-fullwidth.bottom {
+
+}
+
+.card {
+    /* position: relative; */
+    float: left;
+    width: 33.3333%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px;
+    line-height: 25px;
+}
+
+.card img {
+    height: 160px;
+    /* position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0); */
+}
+
+.card h3 {
+    color: #7fb802;
+    margin-top: 60px;
+}
+
+.card p {
+    color: #999;;
+    font-size: 16px;
+}
+
+.card hr {
+    width: 30px;
+    margin: 20px auto;
+    border: 1px solid lightgray;
 }
