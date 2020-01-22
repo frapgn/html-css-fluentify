@@ -19,7 +19,12 @@ body {
 }
 
 .container-fullwidth.top {
-background-color: #0d325a;
+    background-color: #0d325a;
+    background-image: url('https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png');
+    background-size: 1000px;
+    background-position: 179% 135%;
+    background-repeat: no-repeat;
+
 }
 
 .container {
@@ -65,7 +70,7 @@ nav {
 }
 
 .buttons a {
-    margin-left: 20px;
+    margin-left: 10px;
     text-decoration: none;
 }
 
@@ -81,7 +86,7 @@ nav {
 }
 
 .struttura-un-piano {
-    padding: 3px 25px;
+    padding: 3px 20px;
     background-color: #7fb802;
     border-radius: 5px;
     color: #fff;
@@ -92,15 +97,21 @@ nav {
 /* Jambotron */
 .jambotron {
     height: 420px;
+    position: relative;
 }
 
 .slogan-container {
-    width: 50%;
+    position: absolute;
+    top:52%;
+    transform: translate(0,-50%);
+    width: 45%;
     color: #fff;
 }
 
 .slogan-container h1 {
     font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 30px;
 }
 
 .struttura-un-piano.big {
@@ -109,12 +120,21 @@ nav {
     font-weight: 800;
     padding: 8px 25px;
 }
+
+.image-jambotron {
+    height: 420px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(35%,7%);
+}
 /* Fine Jambotron */
 
 
 /* GreyRow */
 .container-fullwidth.middle {
-background-color: #f9f9f9;
+    z-index: 1;
+    background-color: #f9f9f9;
 }
 
 .grey-row {
@@ -144,7 +164,6 @@ background-color: #f9f9f9;
     /* position: relative; */
     float: left;
     width: 33.3333%;
-    border: 1px solid black;
     text-align: center;
     padding: 30px;
     line-height: 25px;
@@ -152,10 +171,6 @@ background-color: #f9f9f9;
 
 .card img {
     height: 160px;
-    /* position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%,0); */
 }
 
 .card h3 {
