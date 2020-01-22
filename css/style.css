@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Martel Sans', sans-serif;
+}
+
 .clearfix:after {
     content: '';
     display: table;
@@ -32,26 +36,80 @@ background-color: #fff;
     margin: 0 auto;
 }
 
+/* Header */
 nav {
     height: 70px;
+    font-size: 12px;
+    font-weight: 800;
 }
 
 .logo {
     float: left;
 }
 
+.logo img {
+    height: 38px;
+    margin: 14px 0 18px 0;
+}
+
+.menu {
+    line-height: 70px;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
 .menu, li  {
     float: left;
+    margin-right: 20px;
 }
 
 .buttons {
     float: right;
+    line-height: 70px;
 }
 
-.menu {
+.buttons a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.diventa-un-tutor{
+    color: #9c9c9c;
+}
+
+.login {
+    padding: 3px 25px;
+    border: 1px solid #4e8cb6;
+    border-radius: 5px;
     color: #fff;
 }
 
-ul {
-    list-style-type: none;
+.struttura-un-piano {
+    padding: 3px 25px;
+    background-color: #7fb802;
+    border-radius: 5px;
+    color: #fff;
+}
+/* Fine Header */
+
+
+/* Jambotron */
+.jambotron {
+    height: 420px;
+}
+
+.slogan-container {
+    width: 50%;
+    color: #fff;
+}
+
+.struttura-un-piano.big {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 8px 25px;
 }
