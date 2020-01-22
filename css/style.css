@@ -9,3 +9,49 @@
     display: table;
     clear: both;
 }
+
+.container-fullwidth {
+    width: 100%;
+}
+
+.container-fullwidth.top {
+background-color: #0d325a;
+}
+
+.container-fullwidth.middle {
+background-color: #f9f9f9;
+}
+
+.container-fullwidth.bottom {
+background-color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 70px;
+}
+
+.logo {
+    float: left;
+}
+
+.menu, li  {
+    float: left;
+}
+
+.buttons {
+    float: right;
+}
+
+.menu {
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
